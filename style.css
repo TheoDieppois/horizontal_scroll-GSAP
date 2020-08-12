@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 600%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.blue {
+  background: lightblue;
+}
+
+.red {
+  background: lightcoral;
+}
+
+.orange {
+  background: orange;
+}
+
+.purple {
+  background: purple;
+}
+
+.green {
+  background: teal;
+}
+
+.gray {
+  background: lightgrey;
+}
